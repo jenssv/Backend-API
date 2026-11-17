@@ -218,8 +218,8 @@ export const apiRoutes: FastifyPluginAsync = async (fastify: FastifyInstance) =>
         method: 'POST',
         body: { claim, mode },
         headers: {
-          Referer: 'https://z2.idlixku.com/',
-          Origin: 'https://z2.idlixku.com',
+          Referer: 'https://z3.idlixku.com/',
+          Origin: 'https://z3.idlixku.com',
         },
       });
 
